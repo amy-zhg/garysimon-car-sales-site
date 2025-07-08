@@ -1,5 +1,5 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+function changeHeart(el) {
+  el.classList.toggle("far");  // Removes regular (empty) heart
+  el.classList.toggle("fas");  // Adds solid (filled) heart
+}
 
-// prints a message in the browser's dev tools console
-console.log("Hello 🌎");
